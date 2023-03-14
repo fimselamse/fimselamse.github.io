@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Plots"
-permalink: /plots
+title: Plots
+permalink: /plots/
 
 ### Pythagoras' theorem
 
