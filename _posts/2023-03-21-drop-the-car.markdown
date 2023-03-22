@@ -4,6 +4,7 @@ title:  "Should you drop the car? (Assignment 2)"
 date:   2023-03-14 09:53:27 +0100
 categories: jekyll update
 time-series-plot: /assets/images/time-series.png
+
 ---
 
 Need another good reason to go carless in the city? While San Francisco has one of the highest rates of car breakins in the world, many people still opt for the car rather than use one of the citys public transportation options. If this is you, I have bad new for you - it's only getting worse.
@@ -15,4 +16,18 @@ Using data on crime in San Francisco provided by the San Francisco Police Depart
 ### Why should I leave the car altogether and not simply use it less?
 Using your car less is a perfectly valid way to reduce your carbon footprint, however, as you will see, this is not the only point I'm trying to make in this blog post. The real reason why you should drop the car is because of the increasing car thefts and break-ins.
 
-![time-series plot]({{ page.time-series-plot}})
+![timeseries]({{ page.time-series-plot}})
+
+### Where to park your car??
+
+Here is a map that might help you determine where to park.
+
+{% include choropeth.html %}
+<!-- {% include folium.html %} -->
+
+
+### Development of theft patterns
+
+Here is an interactive plot that shows how the 24-hour crime cycle has developed over the years.
+
+{% include bokeh.html %}
