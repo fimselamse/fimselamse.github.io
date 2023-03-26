@@ -15,6 +15,8 @@ bokeh: /assets/bokeh.html
 
 The enchanting city of San Francisco, known for its iconic Golden Gate Bridge, vibrant culture, and booming tech scene, is grappling with a disturbing trend: a sharp rise in thefts. A data-driven inquery reveals the extent of this crisis, offering a vivid snapshot of the situation through a series of static and interactive plots.
 
+The data used in this article is provided by the San Francisco Police Departmen (SFPD), and consists of all the reported crimes ranging from 2008 to 2018, and contains details about the crime such as location, type of crime and time of incident.
+
 ### A Troubling Timeline - The Escalating Number of Thefts
 
 The first plot in our exploration is a timeseries visualization, which tracks the daily number of thefts in San Francisco in the 10-year period between 2008 and 2018. The graph paints a startling picture, as it shows a consistent upward trend in incidents of theft.
@@ -35,6 +37,8 @@ From the heatmap, it becomes inceasingly clear that most thefts are comitted lat
 ### Comparing Apples to Apples - An Interactive plot of Crime Trends
 
 Our final plot is an interactive timeseries that allows readers to compare the rise in theft with other types of crime in San Francisco. The illustration offers an wide array of different crimes, enabling users to put the theft epidemic into context and understand its significance in relation to other criminal activities. It also aims to highlight how crime in particular, has seen a steep increase compared to other types of crime in San Francisco.
+
+To compare different types of crime, simply click on the type of crimes in the legend you want to compare. You can deselect types of crime by clicking on them again.
 
 <iframe src="{{page.bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
