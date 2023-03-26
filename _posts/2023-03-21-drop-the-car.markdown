@@ -3,8 +3,9 @@ layout: post
 title:  "Should you drop the car? (Assignment 2)"
 date:   2023-03-14 09:53:27 +0100
 categories: jekyll update
-time-series-plot: /assets/images/time-series.png
+time-series-plot: /assets/time-series.png
 folium: /assets/folium2.html
+bokeh: /assets/bokeh.html
 
 ---
 
@@ -32,4 +33,6 @@ Here is a map that might help you determine where to park.
 
 Here is an interactive plot that shows how the 24-hour crime cycle has developed over the years.
 
-{% include bokeh.html %}{:width="100%"}
+<iframe src="{{page.bokeh}}" width="100%" height="600px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
