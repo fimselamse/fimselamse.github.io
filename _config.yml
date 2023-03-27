@@ -16,7 +16,7 @@
 title: Social Data
 email: s210615@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
-  This site has been created as part of the course Social data analysis and visualization (02806) offered by the Technical University of Denmark.
+  This site has been created as part of the course Social data analysis and visualization (02806) offered at the Technical University of Denmark.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fimselamse.github.io//" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

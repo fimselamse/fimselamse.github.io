@@ -23,10 +23,12 @@ The first plot in our exploration is a timeseries visualization, which tracks th
 
 ![timeseries]({{ page.time-series-plot}}){:width="100%"}
 
+The plot shows the average number of daily thefts on the y-axis and time on the x-axis.
+
 
 ### Hotspots of Crime - A 24-Hour Heatmap of Theft Incidents
 
-To provide a geographical perspective on theft occurrences in San Francisco, we have created an interactive heatmap that shows where most thefts are committed. This map not only displays the city's crime hotspots but also illustrates the fluctuation of the number of occurences throughout the 24 hours of the day, revealing fascinating temporal insights into the theft problem in San Francisco. 
+To provide a geographical perspective on theft occurrences in San Francisco, I have created an interactive heatmap that shows where most thefts are committed. This map not only displays the city's crime hotspots but also illustrates the fluctuation of the number of occurences throughout the 24 hours of the day, revealing fascinating temporal insights into the theft problem in San Francisco.
 
 <iframe src="{{page.folium}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
@@ -44,6 +46,12 @@ To compare different types of crime, simply click on the type of crimes in the l
     Sorry, your browser doesn't support iframes.
 </iframe>
 
+The plot has the normalized crime rate on the y-axis and time on the x-axis. It covers the same 10-year span as the first plot in this post.
+
 ## Conclusion
 
-In summary, our data-driven exploration of theft in San Francisco brings to light the alarming increase of the city's crime problem, as well as an overview of where the theft is being comitted. By providing a timeseries plot of theft incidents, a 24-hour heatmap of crime activity, and an interactive comparison of various crime types, we aim to provide readers with a multifaceted understanding of the theft crisis in the Golden Gate City. It is our hope that this information will spur a constructive dialogue among policymakers, law enforcement officials, and citizens, leading to effective solutions for addressing the city's theft epidemic.
+In summary, our data-driven exploration of theft in San Francisco brings to light the alarming increase of the city's crime problem, as well as an overview of where the theft is being comitted. By providing a timeseries plot of theft incidents, a 24-hour heatmap of crime activity, and an interactive comparison of various crime types, I aim to provide readers with a multifaceted understanding of the theft crisis in the Golden Gate City. It is our hope that this information will spur a constructive dialogue among policymakers, law enforcement officials, and citizens, leading to effective solutions for addressing the city's theft epidemic.
+
+**Notes**
+
+The code for this project can be found in the public git-repository in which this site is contained. Click the git-icon below to navigate.
