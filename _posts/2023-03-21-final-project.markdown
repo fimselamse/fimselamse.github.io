@@ -3,15 +3,19 @@ layout: post
 title:  "On Crash Course to find the Crash Cause?: Evaluating the success of the Zero Initiative in NYC. (Final Project)"
 date:   2023-05-04 23:55:00 +0100
 categories: jekyll update
-time-series-plot: /assets/time-series-collisions.svg
-vehicle-type-2013: /assets/bar-chart-vehicle-type-2013.svg
-crash-cause-2013: /assets/bar-chart-crash-cause-2013.svg
+time-series-plot: /assets/time-series-collisions.html
+vehicle-type-2013: /assets/bar-chart-vehicle-type-2013.html
+crash-cause-2013: /assets/bar-chart-crash-cause-2013.html
 deaths-2013: /assets/injuries-by-type-2013.svg
 injuries-2013: /assets/deaths-by-type-2013.svg
 folium-map-2013: /assets/folium-map-2013.html
-crashes-by-borough-2013: /assets/bar-chart-crashes-by-borough-2013.svg
-collision-development-2022: /assets/collision-development-2022.svg
+crashes-by-borough-2013: /assets/bar-chart-crashes-by-borough-2013.html
+collision-development-2022: /assets/collision-development-2022.html
 collision-regression: /assets/collision-regression.html
+injuries-development-2022: /assets/injuries-development-2022.html
+deaths-by-year: /assets/deaths-by-year.html
+
+
 intersection-map: /assets/intersections-map.jpg
 
 ---
@@ -37,30 +41,40 @@ As highlighted by the graph above, the most servere victims are often not involv
 
 So who are causing these crashes and why do they happen?
 
-<img src="{{ page.vehicle-type-2013 }}" alt="timeseries" style="display: block; margin: auto; width: 100%;" />
+<!-- <img src="{{ page.vehicle-type-2013 }}" alt="timeseries" style="display: block; margin: auto; width: 100%;" /> -->
+<iframe src="{{page.vehicle-type-2013}}" width="100%" height="600px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
 
 The graph above presents a top 10 breakdown of number of vehicle crashes in 2013 by type, including fatalities and serious injuries involving pedestrians, cyclists, and vehicle occupants. The figures reveal that personal sedans and SUVs constitue the vast majority of accidents, which makes sense given they make up the majority of vehicles on the streets. However this figure does not tell us what is causing all of these crashes.
 
-<img src="{{ page.crash-cause-2013 }}" alt="timeseries" style="display: block; margin: auto; width: 100%;" />
+<iframe src="{{page.crash-cause-2013}}" width="100%" height="600px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
 
 This graph depicts the top 10 causes of crashes as noted in the police report of the crash. Curiously,  the cause has been reported as 'unspecified' in the majority of cases, presumably making it more difficult to address the issue at hand.
 
 Lastly, lets take a look at where these collisions are happening.
 
-<iframe src="{{page.folium-map-2013}}" width="100%" height="600px" frameborder="0">
+<iframe src="{{page.folium-map-2013}}" width="100%"  height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
 The heatmap above represents the most common locations of crashes in 2013. Zoom in to get a more precise look at where the crashes are happening. It's apparent from the heatmap that down/midt-town Manhattan is where the majority of crashes happen, painting a clear picture of where resources for the initiative should be allocated.
 
-<img src="{{ page.crashes-by-borough-2013 }}" alt="timeseries" style="display: block; margin: auto; width: 100%;" />
+<iframe src="{{page.crashes-by-borough-2013}}" width="100%" height="600px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
 
 However, looking at a bar chart, we see that it is actually Brooklyn where most of the crashes happen. The concentration is simply higher in Manhattan, making it pop out on a heatmap.
 
 ### Progress at a glimpse?
 <!-- Show development of crashes -->
 
-<img src="{{ page.time-series-plot }}" alt="timeseries" style="display: block; margin: auto; width: 100%;" />
+<iframe src="{{page.time-series-plot}}" width="100%" height="600px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
 
 
 ### Initiatives taken
@@ -80,19 +94,32 @@ The majority of traffic related accidents happen at intersections. In January 20
 
 Let's look at whether a drop in injuries and accidents were seen in this period.
 
-<img src="{{ page.collision-development-2022 }}" alt="timeseries" style="display: block; margin: auto; width: 100%;" />
-
-The graph above shows the development of monthly crashes since January 2022. It's apparent from the graph that the number of collisions have gone down since the intersection changes commenced. It's worth noting that the increase in collisions between March and June 2022 can be explained by a degree of seasonality, because there are generally more cars and people on the streets during the summer months. Even when taking this into consideration, there is a significant drop in collisions between March 2022 and March 2023 of about 10%.
-
-<iframe src="{{page.collision-regression}}" width="100%" height="600px" frameborder="0">
+<!-- <img src="{{ page.collision-development-2022 }}" alt="timeseries" style="display: block; margin: auto; width: 100%;" /> -->
+<iframe src="{{page.collision-development-2022}}" width="100%" height="420px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-The graph above shows the development of weekly vehicle crashes if the decrease continues at this rate.
+The graph above shows the development of monthly crashes since January 2022. It's apparent from the graph that the number of collisions have gone down since the intersection changes commenced. It's worth noting that the increase in collisions between March and June 2022 can be explained by a degree of seasonality, because there are generally more cars and people on the streets during the summer months. Even when taking this into consideration, there is a significant drop in collisions between March 2022 and March 2023 of about 10%.
+
+<iframe src="{{page.collision-regression}}" width="100%" height="420px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
+The graph above shows the predicted development of weekly vehicle crashes if the current trend continues continues at this rate.
 
 Another key part of these intersection changes was to protect pedestrians better in the case of a vehicle crash.
 
+<iframe src="{{page.injuries-development-2022}}" width="100%" height="420px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
 
+Looking at the graph above it becomes clear that the efforts to reduce pedestrian injuries have been unsuccessful or have yet to take effect. Without too much speculation, one can imagine that introducing a lot of changes to intersection might take some getting used to for the natives of NYC. 
+
+In a press release, the New York City Department of Transportation praised the Vision Zero Initiative for reducing the number of fatalities by 6.3% sfrom 2021 to 2022 for the first time in three years [cite https://www.nyc.gov/html/dot/html/pr2023/vision-zero-fatalities-dropped-2022.shtml]. However, if we look at the pedestrian fatalities, that number not only stalledsaw a slight increase.
+
+<iframe src="{{page.deaths-by-year}}" width="100%" height="420px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
 
 Given the noticeable decrease in vehicle accidents during and after the commencement of this initiative, it's fair to say that it has been successful.
 
