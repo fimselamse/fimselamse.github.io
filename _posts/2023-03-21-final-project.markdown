@@ -147,7 +147,7 @@ Some cities around the world have had success with creating 'car-free' zones in 
 
 Thanks for reading!
 
-### Psst.. Interested in learning more?
+### Psst.. Interested in learning more (Explainer Notebook)?
 Navigate to the [detailed analysis](https://github.com/fimselamse/fimselamse.github.io/blob/main/project_part_b.ipynb).
 
 # References
