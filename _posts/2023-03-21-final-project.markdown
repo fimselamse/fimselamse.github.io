@@ -147,6 +147,9 @@ Some cities around the world have had success with creating 'car-free' zones in 
 
 Thanks for reading!
 
+### Psst.. Interested in learning more?
+Navigate to the [detailed analysis]() 
+
 # References
 [^1]: <https://www.nyc.gov/content/visionzero/pages/what-it-is> visited 02/05/-2023
 [^2]: <https://www.nyc.gov/html/dot/downloads/pdf/safety-treatment-evaluation-2005-2018.pdf> visited 08/05/-2023
