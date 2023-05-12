@@ -29,7 +29,7 @@ intersection-map: /assets/intersections-map.jpg
 
 ### Vision Zero: A Journey Towards Safer Streets or a Road to Nowhere?
 
-In 2014, New York City embarked on an ambitious plan to eliminate traffic-related fatalities and serious injuries, launching the Vision Zero Initiative [@somecitation]. With a combination of engineering, enforcement, and education strategies, the goal was to redesign streets, modify traffic patterns, and encourage safer behavior among road users. Almost a decade later, the question remains: Has Vision Zero made a significant impact on traffic safety in the city that never sleeps?
+In 2014, New York City embarked on an ambitious plan to eliminate traffic-related fatalities and serious injuries, launching the Vision Zero Initiative[^1]. With a combination of engineering, enforcement, and education strategies, the goal was to redesign streets, modify traffic patterns, and encourage safer behavior among road users. Almost a decade later, the question remains: Has Vision Zero made a significant impact on traffic safety in the city that never sleeps?
 
 In this investigative article, we delve into the data to assess the success or failure of the Vision Zero initiative. We will examine the changes implemented throughout the city, analyze accident statistics, and discuss the lessons learned as we attempt to determine whether Vision Zero has steered New York City towards a safer future.
 
@@ -74,16 +74,14 @@ However, looking at a bar chart we see that it is actually Brooklyn where most o
 Now that we have a clearer understanding of the state of vehicle collisions in 2013, as well as insights on the causes and worst affected areas, we can start looking into some of the initiatives taken by the Vision Zero project and what effect they had in practice. The Initiative focuses on 4 main aspects of road safety: Engineering, Education, Enforcement, and Legislation. In this section we will be looking at two of the major efforts made to reduce traffic accidents and serious injuries/fatalities caused by them.
 
 #### Engineering Initiatives
-The engineering aspect focuses on enhancing road safety by implementing targeted engineering and design improvements, prioritizing high-risk areas such as intersections and major streets, as well as addressing the specific needs of vulnerable populations like older pedestrians and children. Between 2014 and 2023 the City of New York has completed over 1000 street improvement projects. [cite https://www.nyc.gov/html/dot/downloads/pdf/safety-treatment-evaluation-2005-2018.pdf]. 
-
+The engineering aspect focuses on enhancing road safety by implementing targeted engineering and design improvements, prioritizing high-risk areas such as intersections and major streets, as well as addressing the specific needs of vulnerable populations like older pedestrians and children. Between 2014 and 2023 the City of New York has completed over 1000 street improvement projects[^2].
 <iframe src="{{page.time-series-plot}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-The graph above illustrates the development of monthly crashes since 2013. We see that the number of crashes rose in the initial period following beginning of the project, followed by a steep drop coinciding with the beginning of the covid-19 pandemic where the state of New York entered a lockdown [cite https://www.governor.ny.gov/news/governor-cuomo-signs-new-york-state-pause-executive-order]. Interestingly, the number of monthly crashes remained low even after the the lockdown ceased, which may be as a result of some of the measures taken by Vision Zero. Additionally, we also see a high degree of seasonality in the data, with a yearly maximum in May/June and a yearly minimum in February.
+The graph above illustrates the development of monthly crashes since 2013. We see that the number of crashes rose in the initial period following beginning of the project, followed by a steep drop coinciding with the beginning of the covid-19 pandemic where the state of New York entered a lockdown[^3]. Interestingly, the number of monthly crashes remained low even after the the lockdown ceased, which may be as a result of some of the measures taken by Vision Zero. Additionally, we also see a high degree of seasonality in the data, with a yearly maximum in May/June and a yearly minimum in February.
 
-The majority of traffic related accidents happen at intersections. In January 2022 the city announced efforts to mitigate this by implementing a number of safety-measures such as signal changes, turn calming treatments, raised crosswalks, and other engineering modifications. These efforts were finalized in end of October 2022. Below is a map displaying where changes were implemented. 
-[cite https://www.nyc.gov/content/visionzero/pages/engineering]
+The majority of traffic related accidents happen at intersections. In January 2022 the city announced efforts to mitigate this by implementing a number of safety-measures such as signal changes, turn calming treatments, raised crosswalks, and other engineering modifications. These efforts were finalized in end of October 2022. Below is a map displaying where changes were implemented[^4].
 
 <img src="{{ page.intersection-map }}" alt="timeseries" style="display: block; margin: auto; width: 70%;" />
 
@@ -109,7 +107,7 @@ Another key part of the intersection alterations was to protect pedestrians and 
 
 Looking at the graph above it becomes clear that the efforts to reduce pedestrian injuries have been unsuccessful or have yet to take effect as a result of the changed made to intersection made in 2022. Without too much speculation, one can imagine that introducing a lot of changes to intersection might take some getting used to for the natives of NYC. So while the number of crashes have gone down, the number of injuries have stalled or even seen an increase!
 
-In a press release, the New York City Department of Transportation (NYC DOT) praised the Vision Zero Initiative for reducing the number of fatalities by 6.3% from 2021 to 2022 for the first time in three years [cite https://www.nyc.gov/html/dot/html/pr2023/vision-zero-fatalities-dropped-2022.shtml]. While this is true for the overall number of fatalities, pedestrian fatalities actually saw a slight increase in this period as seen by the graph below.
+In a press release, the New York City Department of Transportation (NYC DOT) praised the Vision Zero Initiative for reducing the number of fatalities by 6.3% from 2021 to 2022 for the first time in three years[^5]. While this is true for the overall number of fatalities, pedestrian fatalities actually saw a slight increase in this period as seen by the graph below.
 
 <iframe src="{{page.deaths-by-year}}" width="100%" height="420px" frameborder="0">
     Sorry, your browser doesn't support iframes.
@@ -118,7 +116,7 @@ In a press release, the New York City Department of Transportation (NYC DOT) pra
 Given the noticeable decrease in vehicle accidents since the commencement of intersection engineering initiative, its *safe* to say it has been a success. However, it is too early to give praise for reducing fatalities and injuries, as the efforts missed the mark on this front.
 
 #### Legislative
-The Vision Zero Initiative has also made large efforts to pass legislations promoting road safety. Key highlights include the introduction of a 25 mph default speed limit in New York City (S7892/A10144 of 2014), meant to double pedestrian survival chances in collisions and reduce the likelihood of serious crashes. The speed camera program, initially established in 2013, was expanded in 2019 (S4331/A6449) to cover 750 school zones and extended operational hours to between 6 AM and 10 PM within a quarter-mile of a school building. Finally, in 2022, the Speed Camera 24/7 Extension (S5602/A10438) removed all restrictions on speed camera operating hours, allowing them to function around the clock throughout the year [cite https://www.nyc.gov/content/visionzero/pages/legislation].
+The Vision Zero Initiative has also made large efforts to pass legislations promoting road safety. Key highlights include the introduction of a 25 mph default speed limit in New York City (S7892/A10144 of 2014), meant to double pedestrian survival chances in collisions and reduce the likelihood of serious crashes. The speed camera program, initially established in 2013, was expanded in 2019 (S4331/A6449) to cover 750 school zones and extended operational hours to between 6 AM and 10 PM within a quarter-mile of a school building. Finally, in 2022, the Speed Camera 24/7 Extension (S5602/A10438) removed all restrictions on speed camera operating hours, allowing them to function around the clock throughout the year[^6].
 
 One goal of legislation S7892/A10144 was to reduce the number of serious injuries as a result of a vehicle crash by reducing the city-wide speed limit from 30mph to 25mph. While the data provided by NYC DOT does not specify the severity of injuries sustained, any injuries resulting in death are pretty serious.
 <iframe src="{{page.total-deaths-by-year-type}}" width="100%" height="420px" frameborder="0">
@@ -133,7 +131,7 @@ The second goal of this legislation was to reduce the likelihood of serious cras
 However, looking at the number of fatal crashes since the bill passed, we see that although there was an immediate drop in 2014, it has failed to sustain this level since then.    
 
 # Where do we stand today?
-We have looked at a couple of the specific efforts made to increase road-safety and seen what direct effects they had, but those were just a few pieces of a much larger puzzle. So where does the City of New York stand today compared to a decade ago? We saw from our analysis that since 2013 the overall number of crashes has gone down by 50% from 203734 in 2013 to only 100466. The number of pedestrian fatalities have also gone down, while the same number among vehicle occupants remained stable, sometimes even seeing an increase.
+We have looked at a couple of the specific efforts made to increase road-safety and seen what direct effects they had, but those were just a few pieces of a much larger puzzle. So where does the City of New York stand today compared to a decade ago? We saw from our analysis that since 2013 the overall number of crashes has gone down by 50% from 203734 in 2013 to only 100466 in 2022. The number of pedestrian fatalities have also gone down, while the same number among vehicle occupants remained stable, sometimes even seeing an increase.
 
 If we compare the heatmap from earlier to that of 2022 it seems as if there has been made significant progress.
 <iframe src="{{page.folium-map-2022}}" width="100%" height="600px" frameborder="0">
@@ -145,7 +143,13 @@ However, from our deep-dive into two of the different efforts made to help the p
 # Where do we go from here?
 Given the immediate success of reducing the speed limit in the city, it's safe to say that reducing it even further could prove a success once more. It will likely also discourage some people from taking the car, maybe even switching to a bicycle during the summer months. While not as effective, we also saw that better intersection/street design *does* help, so continuing this efforts will also play a key role in the future.
 
-Some cities around the world have had success with creating 'car-free' zones in the middle of the city. If there are no cars there are no car-crashes, and those are the most deadly type of vehicle crashes. Given that it is often impossible to find parking anyway, it's hard to argue against removing cars from downtown entirely.
+Some cities around the world have had success with creating 'car-free' zones in the middle of the city[^7]. If there are no cars there are no car-crashes, and those are the most deadly type of vehicle crashes. Given that it is often impossible to find parking anyway, it's hard to argue against removing cars from downtown entirely.
 
 # References
-<!-- Some bib -->
+[^1]: <https://www.nyc.gov/content/visionzero/pages/what-it-is> visited 02/05/-2023
+[^2]: <https://www.nyc.gov/html/dot/downloads/pdf/safety-treatment-evaluation-2005-2018.pdf> visited 08/05/-2023
+[^3]: <https://www.governor.ny.gov/news/governor-cuomo-signs-new-york-state-pause-executive-order> visited 10/05/-2023
+[^4]: <https://www.nyc.gov/content/visionzero/pages/engineering> visited 02/05/-2023
+[^5]: <https://www.nyc.gov/html/dot/html/pr2023/vision-zero-fatalities-dropped-2022.shtml> visited 08/05/-2023
+[^6]: <https://www.nyc.gov/content/visionzero/pages/legislation> visited 05/05/-2023
+[^7]: <https://www.politico.eu/article/pontevedra-city-pioneer-europe-car-free-future/> visited 11/05/-2023
