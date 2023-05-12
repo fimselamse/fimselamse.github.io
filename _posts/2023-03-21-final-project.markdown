@@ -17,6 +17,7 @@ total-injuries-by-year: /assets/total-injuries-by-year.html
 total-deaths-by-year: /assets/total-deaths-by-year.html
 total-deaths-by-year-type: /assets/total-deaths-by-year-type.html
 fatal-crashes-by-year: /assets/fatal-crashes-by-year.html
+heatmap-over-time: /assets/heatmap-over-time.html
 
 folium-map-2013: /assets/folium-map-2013.html
 folium-map-2022: /assets/folium-map-2022.html
@@ -38,7 +39,7 @@ Almost all of the graphs in this post are interactive, either by letting the rea
 ### Status Quo 2013: How bad was it?
 In order to gage whether the Vision Zero Initiative has been successful, we first need to set a baseline. So how bad was the situation in 2013, such that it mandated a city-wide traffic safety intervention?
 
-In 2013 the number of vehicle colisions in the City of New York amounted to a staggering 203.734 crashes, resulting in 55123 injured and the death of 297 people. 
+In 2013 the number of vehicle colisions in the City of New York amounted to a staggering 203.734 crashes, resulting in 55.123 injured and the death of 297 people. 
 
 ![Crashes by Vehicle Type]({{ page.deaths-2013 }}){:width="50%"}![Crashes by Vehicle Type]({{ page.injuries-2013 }}){:width="50%"}
 
@@ -131,8 +132,9 @@ However, looking at the number of fatal crashes since the bill passed, we see th
 # Where do we stand today?
 We have looked at a couple of the specific efforts made to increase road-safety and seen what direct effects they had, but those were just a few pieces of a much larger puzzle. So where does the City of New York stand today compared to a decade ago? We saw from our analysis that since 2013 the overall number of crashes has gone down by 50% from 203734 in 2013 to only 100466 in the last 365 days. The number of pedestrian fatalities have also gone down, while the same number among vehicle occupants remained stable, sometimes even seeing an increase.
 
-If we compare the heatmap from earlier to that of 2022 it seems as if there has been made significant progress.
-<iframe src="{{page.folium-map-2022}}" width="100%" height="600px" frameborder="0">
+If we look at a heatmap over the collisions once more, we see a clear development in the right direction from 2020 and onwards. Press on the 'play' button in the lower left corner to see the sequence of heatmaps from 2013 to 2022. You can also press the 'loop' button and increase the framerate on the right side to see a looping video. 
+
+<iframe src="{{page.heatmap-over-time}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
