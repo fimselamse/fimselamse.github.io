@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Crash Course to find the Crash Cause?: Evaluating the success of the Zero Initiative in NYC. (Final Project)"
-date:   2023-11-05 13:37:00 +0100
+date:   2023-05-11 13:37:00 +0100
 categories: jekyll update
 time-series-plot: /assets/time-series-collisions.html
 vehicle-type-2013: /assets/bar-chart-vehicle-type-2013.html
@@ -20,8 +20,6 @@ fatal-crashes-by-year: /assets/fatal-crashes-by-year.html
 
 folium-map-2013: /assets/folium-map-2013.html
 folium-map-2022: /assets/folium-map-2022.html
-
-
 
 intersection-map: /assets/intersections-map.jpg
 
@@ -148,7 +146,7 @@ Some cities around the world have had success with creating 'car-free' zones in 
 Thanks for reading!
 
 ### Psst.. Interested in learning more?
-Navigate to the [detailed analysis]() 
+Navigate to the [detailed analysis](https://github.com/fimselamse/fimselamse.github.io/blob/main/project_part_b.ipynb).
 
 # References
 [^1]: <https://www.nyc.gov/content/visionzero/pages/what-it-is> visited 02/05/-2023
