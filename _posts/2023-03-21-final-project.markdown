@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Crash Course to find the Crash Cause?: Evaluating the success of the Zero Initiative in NYC. (Final Project)"
-date:   2023-05-04 23:55:00 +0100
+date:   2023-11-05 13:37:00 +0100
 categories: jekyll update
 time-series-plot: /assets/time-series-collisions.html
 vehicle-type-2013: /assets/bar-chart-vehicle-type-2013.html
@@ -131,7 +131,7 @@ The second goal of this legislation was to reduce the likelihood of serious cras
 However, looking at the number of fatal crashes since the bill passed, we see that although there was an immediate drop in 2014, it has failed to sustain this level since then.    
 
 # Where do we stand today?
-We have looked at a couple of the specific efforts made to increase road-safety and seen what direct effects they had, but those were just a few pieces of a much larger puzzle. So where does the City of New York stand today compared to a decade ago? We saw from our analysis that since 2013 the overall number of crashes has gone down by 50% from 203734 in 2013 to only 100466 in 2022. The number of pedestrian fatalities have also gone down, while the same number among vehicle occupants remained stable, sometimes even seeing an increase.
+We have looked at a couple of the specific efforts made to increase road-safety and seen what direct effects they had, but those were just a few pieces of a much larger puzzle. So where does the City of New York stand today compared to a decade ago? We saw from our analysis that since 2013 the overall number of crashes has gone down by 50% from 203734 in 2013 to only 100466 in the last 365 days. The number of pedestrian fatalities have also gone down, while the same number among vehicle occupants remained stable, sometimes even seeing an increase.
 
 If we compare the heatmap from earlier to that of 2022 it seems as if there has been made significant progress.
 <iframe src="{{page.folium-map-2022}}" width="100%" height="600px" frameborder="0">
@@ -144,6 +144,8 @@ However, from our deep-dive into two of the different efforts made to help the p
 Given the immediate success of reducing the speed limit in the city, it's safe to say that reducing it even further could prove a success once more. It will likely also discourage some people from taking the car, maybe even switching to a bicycle during the summer months. While not as effective, we also saw that better intersection/street design *does* help, so continuing this efforts will also play a key role in the future.
 
 Some cities around the world have had success with creating 'car-free' zones in the middle of the city[^7]. If there are no cars there are no car-crashes, and those are the most deadly type of vehicle crashes. Given that it is often impossible to find parking anyway, it's hard to argue against removing cars from downtown entirely.
+
+Thanks for reading!
 
 # References
 [^1]: <https://www.nyc.gov/content/visionzero/pages/what-it-is> visited 02/05/-2023
